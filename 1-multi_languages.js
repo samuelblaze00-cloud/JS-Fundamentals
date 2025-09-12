@@ -1,4 +1,4 @@
-const names = ["C", "Python is cool", "Javascript is amazing"];
+const names = ["C is cool", "Python is cool", "Javascript is amazing"];
 for (let i = 0; i < names.length; i++) {
     console.log(names[i]);
 }
