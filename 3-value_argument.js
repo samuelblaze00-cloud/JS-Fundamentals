@@ -1,7 +1,7 @@
-const args = process.argv.slice(1);
+const args = process.argv.slice(2);
 
-if (args === 0) {
+if (args[0] === undefined) {
     console.log("No argument");
-} else if (args === 1) {
-    console.log("School School");
-} 
+} else {
+    console.log(args[0]);
+}
